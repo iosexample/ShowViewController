@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6C2AD2120BFD038006C66D7 /* MenuCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C2AD2020BFD038006C66D7 /* MenuCollectionViewController.m */; };
 		F6CCC21320BFCD1500F59658 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CCC21220BFCD1500F59658 /* AppDelegate.m */; };
 		F6CCC21620BFCD1500F59658 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CCC21520BFCD1500F59658 /* FirstViewController.m */; };
 		F6CCC21920BFCD1500F59658 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CCC21820BFCD1500F59658 /* SecondViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F6C2AD1F20BFD038006C66D7 /* MenuCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuCollectionViewController.h; sourceTree = "<group>"; };
+		F6C2AD2020BFD038006C66D7 /* MenuCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuCollectionViewController.m; sourceTree = "<group>"; };
 		F6CCC20E20BFCD1500F59658 /* ShowViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6CCC21120BFCD1500F59658 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F6CCC21220BFCD1500F59658 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				F6CCC21F20BFCD1700F59658 /* LaunchScreen.storyboard */,
 				F6CCC22220BFCD1700F59658 /* Info.plist */,
 				F6CCC22320BFCD1700F59658 /* main.m */,
+				F6C2AD1F20BFD038006C66D7 /* MenuCollectionViewController.h */,
+				F6C2AD2020BFD038006C66D7 /* MenuCollectionViewController.m */,
 			);
 			path = ShowViewController;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C2AD2120BFD038006C66D7 /* MenuCollectionViewController.m in Sources */,
 				F6CCC21920BFCD1500F59658 /* SecondViewController.m in Sources */,
 				F6CCC21320BFCD1500F59658 /* AppDelegate.m in Sources */,
 				F6CCC22420BFCD1700F59658 /* main.m in Sources */,
@@ -225,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -277,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
